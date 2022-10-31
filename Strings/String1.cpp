@@ -1,5 +1,4 @@
-#include<iostream>
-#include<string>
+#include<bits/stdc++.h>
 using namespace std;
 
 int main()
@@ -69,7 +68,7 @@ cout<<a3<<endl;
 for(int i=0;i<a3.length();i++){
 	cout<<a3[i]<<"$";
 }
-cout<<endl;
+cout<<endl<<endl;
 
 
 //Iterators:
