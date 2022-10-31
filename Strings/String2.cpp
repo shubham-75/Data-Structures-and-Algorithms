@@ -1,6 +1,4 @@
-#include<iostream>
-#include<algorithm>
-#include<string>
+#include<bits/stdc++.h>
 using namespace std;
 
 bool compare(string a, string b){
@@ -28,5 +26,6 @@ int main(){
 	for(int i=0;i<n;i++){
 		cout<<s[i]<<endl;
 	}
-
+	cout<<endl<<endl;
+	return 0;
 }
