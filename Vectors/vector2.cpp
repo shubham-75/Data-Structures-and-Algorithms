@@ -1,6 +1,6 @@
-#include<iostream>
-#include<vector>
+#include<bits/stdc++.h>
 using namespace std;
+
 int main(){
 
 
@@ -68,11 +68,12 @@ for(int i=0;i<n;i++){
 	cin>>no;
 	v.push_back(no);
 }
+	
 for(int x:v){
-	cout<<x<<",";
-
+   cout<<x<<",";
 }
-//Using reserve function since normal method keeps doubling space thereby taking more time
-
+	
+// Using reserve function since normal method keeps doubling space thereby taking more time
+cout<<endl<<endl;
 return 0;
 }
