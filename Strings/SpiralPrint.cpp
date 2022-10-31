@@ -1,4 +1,4 @@
-#include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
 
 void spiral(int a[][1000],int r , int c){
@@ -62,7 +62,6 @@ int main(){
 	}
 	cout<<endl;
 	spiral(a,r,c);
-	cout<<endl;
 
 	return 0;
 }
